@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5e78b47d117521397eb91c64
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Mrinaal Lalit",
+    "subscribedToChannel": "Mrinaal Rocks"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5e78b47d117521397eb91c64
+
+###
+ 
+PATCH http://localhost:3000/subscribers/5e78b13b7faf8b37409b5897
+Content-Type: application/json
+
+{
+    "name": "Mani"
+}
